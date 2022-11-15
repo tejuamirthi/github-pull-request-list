@@ -1,7 +1,5 @@
 ## Github pull request list
 
-Screen shots added of the app in `Screenshots/**`
-
 1. Have displayed list of prs from apple swift library
 2. Followed MVVM architecture
 3. Handled edge cases, empty state, loader state with Shimmer
@@ -14,4 +12,6 @@ Please update the Github PAT string in `ListService.swift`
 Refer here for creating one: 
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
+Screen shots added of the app in `Screenshots/**`
 
+<img src="Screenshots/ListDarkMode.png" width=240> <img src="Screenshots/ListLightMode.png" width=240> <img src="Screenshots/Shimmer.png" width=240>
