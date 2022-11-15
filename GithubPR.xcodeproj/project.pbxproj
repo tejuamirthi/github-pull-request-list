@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6057F802292338AD00CCCA0B /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6057F801292338AD00CCCA0B /* ListViewModel.swift */; };
 		605E376D291FFD6700BA29F9 /* TagLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E376C291FFD6700BA29F9 /* TagLabel.swift */; };
 		605E376F2920030300BA29F9 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 605E376E2920030300BA29F9 /* Readme.md */; };
 		605E37742920056600BA29F9 /* ListLightMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 605E37732920056600BA29F9 /* ListLightMode.png */; };
@@ -40,7 +41,6 @@
 		60869702291D173D008A817B /* Observable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60869701291D173D008A817B /* Observable+Extensions.swift */; };
 		60869704291D179B008A817B /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60869703291D179B008A817B /* UIScrollView+Extensions.swift */; };
 		60869707291D187C008A817B /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 60869706291D187C008A817B /* RxCocoa */; };
-		60869709291D1B3A008A817B /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60869708291D1B3A008A817B /* ListViewModel.swift */; };
 		6086970C291D2B39008A817B /* PullRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6086970B291D2B39008A817B /* PullRequestTableViewCell.swift */; };
 		6086970E291D4018008A817B /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6086970D291D4018008A817B /* Strings.swift */; };
 		60869711291D4CD9008A817B /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 60869710291D4CD9008A817B /* SDWebImage */; };
@@ -79,6 +79,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6057F801292338AD00CCCA0B /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		605E376C291FFD6700BA29F9 /* TagLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagLabel.swift; sourceTree = "<group>"; };
 		605E376E2920030300BA29F9 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		605E37732920056600BA29F9 /* ListLightMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ListLightMode.png; sourceTree = "<group>"; };
@@ -111,7 +112,6 @@
 		608696FF291D1670008A817B /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
 		60869701291D173D008A817B /* Observable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Extensions.swift"; sourceTree = "<group>"; };
 		60869703291D179B008A817B /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
-		60869708291D1B3A008A817B /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListViewModel.swift; path = ../ListViewModel.swift; sourceTree = "<group>"; };
 		6086970B291D2B39008A817B /* PullRequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullRequestTableViewCell.swift; sourceTree = "<group>"; };
 		6086970D291D4018008A817B /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		60869716291D52EF008A817B /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
@@ -323,7 +323,7 @@
 		6086971C291D538D008A817B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				60869708291D1B3A008A817B /* ListViewModel.swift */,
+				6057F801292338AD00CCCA0B /* ListViewModel.swift */,
 				60869721291D53F0008A817B /* ListSectionItem.swift */,
 			);
 			path = ViewModel;
@@ -540,10 +540,10 @@
 				608696EA291CBABF008A817B /* Images.swift in Sources */,
 				608696EF291D084E008A817B /* ListServiceable.swift in Sources */,
 				60869722291D53F0008A817B /* ListSectionItem.swift in Sources */,
-				60869709291D1B3A008A817B /* ListViewModel.swift in Sources */,
 				608696DB291CB506008A817B /* ListingViewController.swift in Sources */,
 				608696E1291CB54A008A817B /* PrState.swift in Sources */,
 				60869717291D52EF008A817B /* EmptyView.swift in Sources */,
+				6057F802292338AD00CCCA0B /* ListViewModel.swift in Sources */,
 				605E376D291FFD6700BA29F9 /* TagLabel.swift in Sources */,
 				60869720291D53BE008A817B /* ViewModel.swift in Sources */,
 				60869700291D1670008A817B /* NetworkProvider.swift in Sources */,
